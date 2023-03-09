@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+</head>
+<body>
+    <div class="page">    
+        <div class="titlebar">
+            <h1>Network</h1>
+        </div>
+        <h2>Your Feed</h2>
+
+        <div class="sidebar">
+            <img src="icons/user-circle.png">
+            <a href="#">Add an avatar</a>
+            <p>James Doe</p>
+        </div>
+
+        <div class="feed">
+            <div class="feedpost">
+                <div class="posthead">
+                    <span>Neil M</span>
+                    <div class="likesection">
+                        <div class="likes">
+                            <span class="numberoflikes" id="post0likes">9</span> like(s)
+                        </div>
+                        <button type="button" onclick="like(0)">Like</button>
+                    </div>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+            </div>
+
+            <div class="feedpost">
+                <div class="posthead">
+                    <span>Nichole K</span>
+                    <div class="likesection">
+                        <div class="likes">
+                            <span class="numberoflikes" id="post1likes">12</span> like(s)
+                        </div>
+                        <button type="button" onclick="like(1)">Like</button>
+                    </div>
+                </div>
+                <p>Just finished my <a href="#">next comic,</a> check it out.</p>
+            </div>
+
+            <div class="feedpost">
+                <div class="posthead">
+                    <span>Jim R</span>
+                    <div class="likesection">
+                        <div class="likes">
+                            <span class="numberoflikes" id="post2likes">9</span> like(s)
+                        </div>
+                        <button type="button" onclick="like(2)">Like</button>
+                    </div>
+                </div>
+                <p>I couldn't stop listening to the <a href="#">new album.</a> Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

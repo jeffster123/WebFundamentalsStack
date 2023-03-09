@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h1 {
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 12px;
+}
+
+h3 {
+    height: 75px;
+    font-size: 50px;
+}
+
+.pageheader {
+    background-color: darkcyan;
+    padding: 30px;
+    border-bottom-style: solid;
+    border-width: 5px;
+}
+
+.pagebody {
+    padding: 0px 50px;
+}
+
+.navbar, .searchbar {
+    width: 60%;
+    height: 10%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbar {
+    margin-top: 40px;
+}
+
+.title {
+    display: inline-flex;
+    align-items: center;
+}
+
+.title > img {
+    width: 50px;
+}
+
+.navlinks {
+    display: inline-block;
+}
+
+.navlinks > * {
+    margin: 10px;
+}
+
+#donatebutton {
+    color: blueviolet;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 1px 1px black;
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 1px;
+}
+
+input, select {
+    width: 200px;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbox > * {
+    margin: 5px;
+}
+
+.searchbox > img {
+    width: 30px;
+}
+
+.searchbar > button {
+    color: white;
+    background-color: blueviolet;
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+    box-shadow: 2px 2px black;
+    position: relative;
+    top: 4px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.petcontainer {
+    background-color: whitesmoke;
+    width: 60%;
+    height: 150px;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.petcontainer > img {
+    width: 150px;
+}
+
+.petinfo {
+    width: 650px;
+    height: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+.petdescription {
+    width: 500px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.petdescription > p {
+    font-size: 18px;
+}
+
+.petpets {
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+p {
+    height: 75px;
+}
+
+.petpets > p {
+    height: 50px;
+    margin-top: 25px;
+    text-align: end;
+}
+
+.petpets > button {
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: cyan;
+    box-shadow: 2px 2px black;
+}

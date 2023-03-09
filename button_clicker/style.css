@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2{
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+input {
+    height: 40px;
+    width: 400px;
+}
+
+.navbar {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.maincontent {
+    display: flex;
+    align-items: center;
+    
+}
+
+.col-1, .col-2 {
+    margin: 10px;
+    height: 520px;
+}
+
+.col-1 {
+    flex: 2;
+}
+
+.col-2 {
+    flex: 1;
+    vertical-align: top;
+}
+
+.navbar {
+    width: 1040px;
+    margin: auto;
+    padding: 20px;
+}
+
+.maincontent {
+    width: 1100px;
+    margin: auto;
+}
+
+.entry {
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.entry > span {
+    margin-left: 30px;
+    font-size: 35px;
+}
+
+.entry, .sidebar {
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+    margin-top: 20px;    
+}
+
+.entryinfo {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    height: 210px;
+}
+
+.sidebar {
+    height: 150px;
+}
+
+.sidebar > p {
+    font-size: 40px;
+}
+
+.navbar > button {
+    background-color:dodgerblue;
+    color: white;
+    width: 80px;
+    height: 40px;
+}
+
+.entryinfo > button {
+    background-color: gold;
+    width: 80px;
+    height: 30px;
+}
+
+.sidebar > button {
+    background-color:rgb(76, 214, 34);
+    width: 310px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+}
+
+button {
+    box-shadow: 2px 2px black;
+    font-size: 16px;
+}
+

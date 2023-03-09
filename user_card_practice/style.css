@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.usercard {
+    height: 600px;
+    width: 800px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    margin-top: 100px;
+
+    
+}
+
+.profilecolor {
+    height: 150px;
+    width: inherit;
+    background-color: aqua;
+    display: block;
+}
+
+.profile {
+    top: -50px;
+    left: 50px;
+    display: block;
+    position: relative;
+}
+
+#profilepic { 
+    height: 100px;
+    display: block;
+}
+
+#mapmarker, #gearicon, h2, h3 {
+    display: inline-block;
+}
+
+#mapmarker, #gearicon {
+    width: 20px;
+    
+}
+
+p1 {
+    width: 300px;
+    display: block;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}

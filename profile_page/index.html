@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navlinks">
+            <h1>Profile</h1>
+            <h2>Home</h2>
+            <h2>My Profile</h2>
+            <h2>Find Connections</h2>
+        </div>
+        <button type="button" id="signout">Sign Out</button>
+    </div>
+
+    <div class="page">
+        <div class="maincontent">
+            <div id="usercard">
+                <div class="cardcolor"></div>
+                <div class="profile">
+                    <img alt="profilepicture" src="images/jane-m.jpg">
+                    <h4>Jane Doe</h4>
+                    <div class="profilelocation">
+                        <img alt="mapmarkericon" src="icons/map-marker.png">
+                        <h5>Seattle</h5>
+                    </div>
+
+                    <p>Developer | Engineer | Problem Solver
+                        Master of shadows and the Internet!
+                    </p>
+
+                    <div class="editprofile">
+                        <img alt="gearicon" src="icons/gear.png">
+                        <a href="#">edit profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="education">
+                <div class="educationheader">
+                    <h3>Education</h3>
+                </div>
+                <div class="educationbody">
+                    <h6>Coding Dojo - Full Stack Bootcamp</h6>
+                    <p id="graydate">Dec 2019 - Mar 2020</p>
+                    <p>Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="sidebar">
+
+            <div class="connectionrequests">
+                <div class="sidebarheader">
+                    <h3>Connection Requests</h3>
+                </div>
+                <div class="connectionrequestsbody">
+                    <div class="request">
+                        <div class="requester">
+                            <img alt="toddpicture" src="images/todd-s.jpg">
+                            <p>Todd E</p>
+                        </div>
+                        <div class="acceptdeny">
+                            <img alt="accepticon" src="icons/accept-circle.png">
+                            <img alt="denyicon" src="icons/close-circle.png">
+                        </div>
+                    </div>
+
+                    <div class="request">
+                        <div class="requester">
+                            <img alt ="philpicture" src="images/phil-s.jpg">
+                            <p>Phil K</p>
+                        </div>
+                        <div class="acceptdeny">
+                            <img alt ="accepticon" src="icons/accept-circle.png">
+                            <img alt="denyicon" src="icons/close-circle.png">
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="yourconnections">
+                <div class="sidebarheader">
+                    <h3>Your Connections</h3>
+                </div>
+                <div class="yourconnectionsbody">
+                    <div class="connection">    
+                        <img alt="adrienpicture" src="images/adrien-s.jpg">
+                        <p>Adrien D</p>
+                    </div>
+                    <div class="connection">
+                        <img alt="annepicture" src="images/anne-s.jpg">
+                        <p>Anne J</p>
+                    </div>
+                    <div class="connection">
+                        <img alt="alaynepicture" src="images/alayne-s.jpg">
+                        <p>Alayne T</p>
+                    </div>
+                    <div class="connection">
+                        <img alt="arrypicture" src="images/arry-s.jpg">
+                        <p>Arry Y</p>
+                    </div>
+                    <div class="connection">
+                        <p><a href="#">View More</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
